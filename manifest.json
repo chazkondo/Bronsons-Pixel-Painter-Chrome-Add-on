@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Chrome Companion for the lonely surfer",
-    "description": "Does cool things",
+    "name": "Bronson's Pixel Painter Chrome Add On",
+    "description": "Draw anything you want in a portable paint application with a stunning easter egg.",
     "version": "1",
     "author": "Chaz",
 
@@ -13,7 +13,7 @@
 
     "browser_action": {
         "default_popup": "popup.html",
-        "default_icon": "tab-icon.png"
+        "default_icon": "bpp.png"
     },
 
     "permissions": ["activeTab"]
