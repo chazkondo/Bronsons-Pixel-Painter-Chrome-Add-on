@@ -15,6 +15,10 @@ You're done!
 
 Fork and clone this repository.
 
+### Extra Notes
+
+As you make new updates, simply click the sync button while in developer mode.
+
 ## Acknowledgments
 
 * Thanks to Baseem @ https://github.com/ba5eem  
