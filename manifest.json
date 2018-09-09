@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome Companion for the lonely surfer",
+    "description": "Does cool things",
+    "version": "1",
+    "author": "Chaz",
+
+    "content_scripts": [{
+        "css": ["main.css"],
+        "js": ["content.js"],
+        "matches": ["*://*/*"]
+    }],
+
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "tab-icon.png"
+    },
+
+    "permissions": ["activeTab"]
+}

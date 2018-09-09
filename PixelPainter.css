@@ -1,0 +1,246 @@
+html {
+    cursor: default;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Righteous', sans-serif;
+    height: fit-content;
+    margin: 0;
+    background: hsl(210, 100%, 90%);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 1rem 0;
+    width: fit-content;
+    min-width: 320px;
+    opacity: 0;
+    text-shadow: 1px 1px 2px rgb(51, 58, 64),
+                 2px 2px 5px rgb(102, 116, 128);
+  }
+  
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0.33rem 0.5rem;
+    border: 0;
+    transition: 0.1s;
+    background: #fbfbfb;
+    color: hsl(0, 50%, 50%);
+    box-shadow: 1px 2px 3px 1px hsla(210, 33%, 33%, 0.75);
+    text-shadow: 1px 1px 1px hsla(0, 50%, 25%, 0.25);
+  }
+  
+  svg {
+    height: 24;
+    width: 24;
+  }
+  
+  :focus {
+    outline: none;
+  }
+  
+  ::-moz-focus-inner {
+    border: 0;
+  }
+  
+  #pixelPainter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    min-width: 320px;
+    margin: 0 auto;
+  }
+  
+  #canvas,
+  #palette {
+    display: flex;
+    border: 1px solid #2b2b2b;
+    margin-bottom: 1rem;
+    box-shadow: 1px 2px 3px hsla(210, 33%, 33%, 0.75);
+  }
+    #canvas {
+      flex-direction: column;
+    }
+    #palette {
+      flex-direction: row;
+    }
+  
+  .heading {
+    touch-action: none;
+  }
+  
+  #options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  
+  .c-row {
+    display: flex;
+    height: 16px;
+    width: fit-content;
+  }
+  
+  .c-cell {
+    touch-action: none;
+    transition: background 0.1s;
+    width: 16px;
+    border: 1px solid #2b2b2b;
+    background: #fff;
+  }
+  
+  .p-column {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .p-cell {
+    transition: box-shadow 0.1s;
+    height: 22px;
+    width: 22px;
+    border: 1px solid #2b2b2b;
+  }
+  
+  .press-clear {
+    transform: translate(1px, 2px);
+    box-shadow: none !important;
+    color: hsl(0, 100%, 37.5%);
+    background: #bcbcbc;
+  }
+  
+  .press-mode {
+    transform: translate(1px, 2px);
+    box-shadow: none !important;
+  }
+  
+  .select-color {
+    border: 1px solid #fff;
+    box-shadow: inset 0px 0px 1px 1px #fff;
+  }
+  
+  .select-mode {
+    background: hsla(60, 100%, 75%, 1);
+  }
+  
+  @media (min-width: 576px) and (min-height: 576px) {
+    h1 {
+      font-size: 3.3rem;
+      line-height: 3.3rem;
+      margin: 1.1rem 0;
+    }
+    button {
+      padding: 0.36rem 0.55rem;
+      font-size: 1.65rem;
+      line-height: 1.65rem;
+    }
+    svg {
+      height: 26.4;
+      width: 26.4;
+    }
+    #canvas,
+    #palette {
+      margin-bottom: 1.1rem;
+    }
+    .c-row {
+      height: 17.6px;
+    }
+    .c-cell {
+      width: 17.6px;
+    }
+    .p-cell {
+      height: 24.2px;
+      width: 24.2px;
+    }
+    .select-color {
+      border: 1px solid #fff;
+      box-shadow: inset 0px 0px 1.1px 1.1px #fff;
+    }
+  }
+  
+  @media (min-width: 768px) and (min-height: 768px) {
+    h1 {
+      font-size: 4.29rem;
+      line-height: 4.29rem;
+      margin: 1.43rem 0;
+    }
+    button {
+      padding: 0.47rem 0.72rem;
+      font-size: 2.15rem;
+      line-height: 2.15rem;
+    }
+    svg {
+      height: 34.32;
+      width: 34.32;
+    }
+    #canvas,
+    #palette {
+      margin-bottom: 1.43rem;
+    }
+    .c-row {
+      height: 22.88px;
+    }
+    .c-cell {
+      width: 22.88px;
+    }
+    .p-cell {
+      height: 31.46px;
+      width: 31.46px;
+    }
+    .select-color {
+      border: 1px solid #fff;
+      box-shadow: inset 0px 0px 1.43px 1.43px #fff;
+    }
+  }
+  
+  @media (min-width: 992px) and (min-height: 992px) {
+    h1 {
+      font-size: 5.58rem;
+      line-height: 5.58rem;
+      margin: 1.86rem 0;
+    }
+    button {
+      padding: 0.61rem 0.93rem;
+      font-size: 2.8rem;
+      line-height: 2.8rem;
+    }
+    svg {
+      height: 44.62;
+      width: 44.62;
+    }
+    #canvas,
+    #palette {
+      margin-bottom: 1.86rem;
+    }
+    .c-row {
+      height: 29.74px;
+    }
+    .c-cell {
+      width: 29.74px;
+    }
+    .p-cell {
+      height: 40.9px;
+      width: 40.9px;
+    }
+    .select-color {
+      border: 1px solid #fff;
+      box-shadow: inset 0px 0px 1.86px 1.86px #fff;
+    }
+  }
