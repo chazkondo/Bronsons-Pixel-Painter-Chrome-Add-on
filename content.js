@@ -1,1 +1,1 @@
-console.log('content.js currently has no content')
+// content.js currently has no content
