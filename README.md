@@ -6,7 +6,7 @@ Once added, click on the newly added icon, and play with a portable version of B
 
 ## Getting Started
 
-Simply navigate to chrome://extensions/ and toggle on developer mode.
+Simply navigate to chrome://extensions/ and toggle on developer mode.  
 Load this repository and make sure it's activated. 
 
 You're done!
@@ -17,9 +17,10 @@ Fork and clone this repository.
 
 ## Acknowledgments
 
-* Thanks to Baseem @ https://github.com/ba5eem
+* Thanks to Baseem @ https://github.com/ba5eem  
 ( Inspired by hackathon ideas )
 
 * Also thanks goes out to Bronson Avila for his awesome Pixel Painter project, and more cool things to come.
-https://github.com/bronsonavila/PixelPainter  https://github.com/bronsonavila
+https://github.com/bronsonavila/PixelPainter  
+https://github.com/bronsonavila
 
