@@ -1,4 +1,4 @@
-# Chrome Companion 
+# Bronson's Pixel Painter Chrome Add-on
 
 A way to get started creating your own chrome extension and testing it in your own dev environment.
 
