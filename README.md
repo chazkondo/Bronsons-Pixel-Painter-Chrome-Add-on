@@ -2,7 +2,7 @@
 
 A way to get started creating your own chrome extension and testing it in your own dev environment.
 
-Once added, click on the newly added icon, and play with a portable version of Bronson's Pixel Painter (see acknowlegements).
+Once added, click on the newly added icon, and play with a built-in portable version of Bronson's Pixel Painter (see acknowlegements).
 
 ## Getting Started
 
