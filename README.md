@@ -6,7 +6,7 @@ Once added, click on the newly added icon, and play with a portable version of B
 
 ## Getting Started
 
-Simply navigate to [chrome://extensions/](chrome://extensions/) and toggle on developer mode.  
+Simply navigate to [chrome://extensions/] and toggle on developer mode.  
 Load this repository and make sure it's activated. 
 
 You're done!
