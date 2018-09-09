@@ -21,6 +21,5 @@ Fork and clone this repository.
 ( Inspired by hackathon ideas )
 
 * Also thanks goes out to Bronson Avila for his awesome Pixel Painter project, and more cool things to come.
-https://github.com/bronsonavila/PixelPainter
+https://github.com/bronsonavila/PixelPainter  https://github.com/bronsonavila
 
-https://github.com/bronsonavila
